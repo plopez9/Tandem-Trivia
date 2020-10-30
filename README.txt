@@ -15,3 +15,7 @@ Tandem Trivia is a comand line based trivia game. Compatible with Python 3, simp
 3) Tandem Trivia will only work with trivia questions with up to 9 answers. This was an assumption as most triva games only provide 4. Adding to the alphabet array, up to the highest number of possible answers per question, will keep the code from breaking. This can be found in line 15. 
 
 	> 13	self.alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
+
+## Testing
+
+To use the unit test file, run the python script "test_Trivia_Game.py" in the command prompt. The file should consist of 5 tests; one for each method in the game's Trivia class. 3 of the 5 test are empty. This is due to my unfamiliarity with mocking. These methods either call another function from within the Trivia class, require a user input, or simply print responses to the screen without a return. 
